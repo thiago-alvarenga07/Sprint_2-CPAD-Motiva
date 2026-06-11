@@ -60,7 +60,7 @@ export function AuthProvider({ children }) {
 
     function logout() {
         setUser(null);
-        AsyncStorage.removeItem('user')
+        AsyncStorage.removeItem('user');
     }
 
     return (
